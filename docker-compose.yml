@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  node-red-service1:
+    build: node-red-service1
+    ports:
+      - "9880:1880"

@@ -1,0 +1,14 @@
+  
+{
+    "name": "node-red-service-1,
+    "description": "Node-RED Service 1",
+    "version": "0.0.1",
+    "dependencies": {
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "./node-red-service1/flows.json",
+            "credentialsFile": "./node-red-service1/flows_cred.json"
+        }
+    }
+}

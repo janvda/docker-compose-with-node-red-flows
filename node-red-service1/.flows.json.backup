@@ -10,7 +10,7 @@
         "id": "ee116574.f1f048",
         "type": "inject",
         "z": "98f04e36.3a6d",
-        "name": "",
+        "name": "set startup message",
         "props": [
             {
                 "p": "payload"
@@ -25,10 +25,10 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "Hello World",
+        "payload": "The Node-red flow is successfully started if you see this message !",
         "payloadType": "str",
-        "x": 240,
-        "y": 60,
+        "x": 220,
+        "y": 80,
         "wires": [
             [
                 "6c5aa1bc.4a843"
@@ -39,7 +39,7 @@
         "id": "6c5aa1bc.4a843",
         "type": "debug",
         "z": "98f04e36.3a6d",
-        "name": "",
+        "name": "write startup message to console.",
         "active": true,
         "tosidebar": true,
         "console": true,
@@ -48,8 +48,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 440,
-        "y": 60,
+        "x": 510,
+        "y": 80,
         "wires": []
     }
 ]

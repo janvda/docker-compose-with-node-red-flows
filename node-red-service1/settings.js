@@ -183,7 +183,7 @@ module.exports = {
            title: "Node-RED Service 1"
         },
         header: {
-         title: "node-red-service1"
+         title: "node-red-service 1"
         },
         projects: {
             enabled: true

@@ -1,8 +1,8 @@
 # docker-compose-with-node-red-flows
 
-This github repository consists of a sample docker-compose application consisting of one Node-Red application (`node-red-service1`).
+This github repository consists of a [sample docker-compose application](docker-compose.yml) consisting of one Node-Red application (`node-red-service1`).
 
-Note that the actual flow and flow credentials file of the Node-Red application are also stored in this github repository.  So you don't need a separate github repository for the node-red flows.
+Note that the [actual flow](node-red-service1/flows.json) and [flow credentials file](node-red-service1/flow_cred.json) of the Node-Red application are also stored in this github repository.  So you don't need a separate github repository for the node-red flows.
 
 This sample docker-compose application can be used as a starting point for any docker-compose application having a node-red application as one of its services.  In fact it can even be used to support a docker-compose application consisting of more than one node-red application.
 
@@ -12,7 +12,7 @@ You can directly update the flows of the Node-Red application in the github repo
 For this you must execute the following steps:
 
 1. Clone the github Repository via the Node-RED editor
-2. When the Node-RED editor says "Project package file not found" then you must select `Setup project files`
+2. When the Node-RED editor says `Project package file not found` then you must select `Setup project files`
 3. In the `Settings` tab you must select `edit`.
 4. Next to `Package` you select folder icon and then you select `package.json` under `node-red-service1` folder
 5. You select `save` and the `Close`

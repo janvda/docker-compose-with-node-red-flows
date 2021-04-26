@@ -1,9 +1,0 @@
-{
-    "projects": {
-        "docker-compose-with-node-red-flows": {
-            "credentialSecret": false,
-            "rootPath": "node-red-service1/"
-        }
-    },
-    "activeProject2": "docker-compose-with-node-red-flows"
-}

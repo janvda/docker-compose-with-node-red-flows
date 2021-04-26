@@ -55,7 +55,6 @@ module.exports = {
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:
     flowFilePretty: true,
-    rootPath: 'node-red-service1/',
 
     // By default, all user data is stored in the Node-RED install directory. To
     // use a different location, the following property can be used

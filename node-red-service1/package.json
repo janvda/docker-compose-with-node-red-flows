@@ -8,6 +8,6 @@
             "credentialsFile": "flows_cred.json"
         }
     },
-    "description": "test node-red flow",
+    "description": "Test Node-RED flow",
     "version": "0.0.1"
 }

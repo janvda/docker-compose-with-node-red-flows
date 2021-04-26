@@ -1,6 +1,6 @@
 FROM nodered/node-red:1.2.9-12
 
-# creating node-red userDir "/node-red" dir with proper permissions
+# creating node-red userDir "/node-red" with proper permissions
 USER root
 RUN mkdir /node-red
 RUN chown node-red:node-red /node-red

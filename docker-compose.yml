@@ -4,3 +4,5 @@ services:
     build: node-red-service1
     ports:
       - "9880:1880"
+    environment:
+      - NODE_RED_ENABLE_PROJECTS=true

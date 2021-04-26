@@ -186,9 +186,10 @@ module.exports = {
         header: {
          title: "node-red-service 1"
         },
-        projects: {
-            enabled: true
-        }
+        // jva 2021-04-26: project functionality is enabled through env variable: NODE_RED_ENABLE_PROJECTS
+        //projects: {
+        //    enabled: true
+        //}
     },
 
 

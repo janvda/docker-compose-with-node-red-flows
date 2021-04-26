@@ -2,7 +2,7 @@
 
 This github repository consists of a [sample docker-compose application](docker-compose.yml) consisting of one Node-Red application (`node-red-service1`).
 
-Note that the [actual flow](node-red-service1/flows.json) and [flow credentials file](node-red-service1/flows_cred.json) of the Node-Red application are also stored in this github repository.  So you don't need a separate github repository for maintaining the node-red flows.
+Note that the [actual flow](node-red-service1/flows.json) and [flow credentials file](node-red-service1/flows_cred.json) of the Node-Red application are also stored in this github repository.  **So you don't need a separate github repository for maintaining the node-red flows!**
 
 This sample docker-compose application can be used as a starting point for any docker-compose application having a Node-RED application as one of its services.  In fact it can even be used to support a docker-compose application consisting of more than one node-red application.
 

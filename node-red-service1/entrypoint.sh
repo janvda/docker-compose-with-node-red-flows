@@ -6,4 +6,5 @@ cp /tmp/package.json /data/package.json
 cp /tmp/flows.json   /data/flows.json
 
 echo "Starting node-red ..."
-npm start -- --userDir /data
+npm start -- --userDir /data 
+# --prefix ./node-red-service1

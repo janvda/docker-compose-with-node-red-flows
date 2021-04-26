@@ -145,8 +145,7 @@
         "y": 40,
         "wires": [
             [
-                "6c5aa1bc.4a843",
-                "f08cee63.c1754"
+                "6c5aa1bc.4a843"
             ]
         ]
     },
@@ -165,22 +164,6 @@
         "statusType": "auto",
         "x": 470,
         "y": 40,
-        "wires": []
-    },
-    {
-        "id": "f08cee63.c1754",
-        "type": "ui_text",
-        "z": "98f04e36.3a6d",
-        "group": "c89da5e7.ba6508",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "startup message",
-        "format": "{{msg.payload}}",
-        "layout": "col-center",
-        "x": 420,
-        "y": 100,
         "wires": []
     }
 ]

@@ -1,8 +1,6 @@
 {
     "dependencies": {
-        "node-red-dashboard": "2.29.0",
-        "node-red-node-daemon": "0.2.1",
-        "node-red-node-rbe": "0.5.0"
+        "node-red-dashboard": "2.29.0"
     },
     "node-red": {
         "settings": {
@@ -10,6 +8,6 @@
             "credentialsFile": "flows_cred.json"
         }
     },
-    "description": "sample node-red flow",
+    "description": "test node-red flow",
     "version": "0.0.1"
 }

@@ -5,4 +5,4 @@ services:
     ports:
       - "9880:1880"
     environment:
-      - NODE_RED_ENABLE_PROJECTS=true
+      - NODE_RED_ENABLE_PROJECTS=true  # must be set to true if you want to modify the node-red flow files through node-red editor

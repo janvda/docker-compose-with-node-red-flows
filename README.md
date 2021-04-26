@@ -32,4 +32,4 @@ Once you have properly cloned the github repository (see previous section) you c
    2. add the respective packages via tab `Dependencies`
 4. Push your changes to github.
 
-Note that the [node-red-service1 Dockerfile](node-red-service1/Dockerfile) assures that all the nodes specified in the dependencies section of [your package.json](node-red-service1/package.json) in step 3 will be built into the container image for `node-red-service1`.
+Note that the [node-red-service1 Dockerfile](node-red-service1/Dockerfile) assures that all the nodes specified in the dependencies section of [your package.json](node-red-service1/package.json) (see step 3) will be built into the container image for `node-red-service1`.

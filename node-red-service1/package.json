@@ -39,6 +39,8 @@
     },
     "dependencies": {
         "node-red": "1.2.9",
-        "node-red-dashboard": "2.29.0"
+        "node-red-dashboard": "2.29.0",
+        "node-red-node-daemon": "0.2.1",
+        "node-red-node-rbe": "0.5.0"
     }
 }

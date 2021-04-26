@@ -7,7 +7,7 @@ RUN npm install --unsafe-perm --no-update-notifier --no-fund --only=production
 
 COPY settings.js entrypoint.sh  ./
 
-COPY flows.json /tmp/
+COPY flows.json flows_cred.json ./
 
 # the below entrypoint replaces the entrypoint of the nodered/node-red
 ENTRYPOINT  ["bash", "entrypoint.sh"]

@@ -121,27 +121,6 @@
         "collapse": false
     },
     {
-        "id": "85c52f19.b355",
-        "type": "mqtt-broker",
-        "name": "dummy mqtt",
-        "broker": "localhost",
-        "port": "1883",
-        "clientid": "",
-        "usetls": false,
-        "compatmode": false,
-        "keepalive": "60",
-        "cleansession": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
-    },
-    {
         "id": "ee116574.f1f048",
         "type": "inject",
         "z": "98f04e36.3a6d",
@@ -203,57 +182,5 @@
         "x": 420,
         "y": 100,
         "wires": []
-    },
-    {
-        "id": "7f9f1357.2ef0ac",
-        "type": "mqtt in",
-        "z": "98f04e36.3a6d",
-        "name": "",
-        "topic": "/test",
-        "qos": "2",
-        "datatype": "auto",
-        "broker": "85c52f19.b355",
-        "x": 270,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "300faec3.d13292",
-        "type": "daemon",
-        "z": "98f04e36.3a6d",
-        "name": "",
-        "command": "ls",
-        "args": "",
-        "autorun": true,
-        "cr": false,
-        "redo": true,
-        "op": "string",
-        "closer": "SIGKILL",
-        "x": 620,
-        "y": 220,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "2c67ef04.6d9ab",
-        "type": "rbe",
-        "z": "98f04e36.3a6d",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "x": 400,
-        "y": 340,
-        "wires": [
-            []
-        ]
     }
 ]

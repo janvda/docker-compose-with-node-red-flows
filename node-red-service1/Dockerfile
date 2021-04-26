@@ -13,9 +13,7 @@ RUN mkdir /node-red
 RUN chown node-red:node-red /node-red
 USER node-red
 
-COPY --chown=node-red flows.json flows_cred.json settings.js /node-red/
-# following is added to assure that the flows are not updated outside the node-red project context.
-RUN chmod u-w /node-red/flows.json /node-red/flows_cred.json
+COPY  flows.json flows_cred.json settings.js /node-red/
 
 # the below entrypoint replaces the entrypoint of the nodered/node-red
 ENTRYPOINT  ["bash", "entrypoint.sh"]

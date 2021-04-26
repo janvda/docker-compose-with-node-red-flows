@@ -218,5 +218,42 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "300faec3.d13292",
+        "type": "daemon",
+        "z": "98f04e36.3a6d",
+        "name": "",
+        "command": "ls",
+        "args": "",
+        "autorun": true,
+        "cr": false,
+        "redo": true,
+        "op": "string",
+        "closer": "SIGKILL",
+        "x": 620,
+        "y": 220,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2c67ef04.6d9ab",
+        "type": "rbe",
+        "z": "98f04e36.3a6d",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "x": 400,
+        "y": 340,
+        "wires": [
+            []
+        ]
     }
 ]

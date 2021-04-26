@@ -1,44 +1,5 @@
 {
-    "name": "node-red-docker",
-    "version": "version 0.1",
-    "description": "my template",
-    "homepage": "http://nodered.org",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/node-red/node-red-docker.git"
-    },
-    "main": "node_modules/node-red/red/red.js",
-    "scripts": {
-        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
-        "debug": "node --inspect=0.0.0.0:9229 $NODE_OPTIONS node_modules/node-red/red.js $FLOWS",
-        "debug_brk": "node --inspect=0.0.0.0:9229 --inspect-brk $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
-    },
-    "contributors": [
-        {
-            "name": "Dave Conway-Jones"
-        },
-        {
-            "name": "Nick O'Leary"
-        },
-        {
-            "name": "James Thomas"
-        },
-        {
-            "name": "Raymond Mouthaan"
-        }
-    ],
-    "engines": {
-        "node": ">=10"
-    },
-    "node-red": {
-        "settings": {
-            "flowFile": "flows.json",
-            "credentialsFile": "flows_cred.json"
-        }
-    },
     "dependencies": {
-        "node-red": "1.2.9",
         "node-red-dashboard": "2.29.0",
         "node-red-node-daemon": "0.2.1",
         "node-red-node-rbe": "0.5.0"

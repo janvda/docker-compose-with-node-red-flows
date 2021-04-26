@@ -22,13 +22,13 @@ Once you have successfully updated the flows don't forget to push your changes t
 Once you have properly cloned the github repository (see previous section) you can add new nodes as follows:
 
 1. Install them through the `Manage Palette` tab of the Node-RED editor.
-2. So now you can use these installed nodes in your flows.  In some cases it might be needed to restart node-red (so you need to restart the respective container)
+2. So now you can use these installed nodes in your flows.  In some cases it might be needed to restart node-red (so you need to restart the `node-red-service1` container)
 3. You also need to add these nodes dependencies to [your package.json](node-red-service1/package.json) by 
    1. opening your Project Settings via the Node-RED editor.  
    2. add the respective packages via tab `Dependencies`
 4. Push your changes to github.
 
-Note that the [node-red-service1 Dockerfile](node-red-service1/Dockerfile) assures that all the nodes specified in the dependencies section of (node-red-service1/package.json) will be build into the container image for `node-red-service1`.
+Note that the [node-red-service1 Dockerfile](node-red-service1/Dockerfile) assures that all the nodes specified in the dependencies section of [your package.json](node-red-service1/package.json) in step 3 will be built into the container image for `node-red-service1`.
 
 
 

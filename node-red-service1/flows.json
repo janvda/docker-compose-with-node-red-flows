@@ -7,14 +7,6 @@
         "info": ""
     },
     {
-        "id": "87663ac3.fba438",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "d4a5134c.28b41",
         "type": "ui_base",
         "theme": {
@@ -109,16 +101,6 @@
                 "py": 0
             }
         }
-    },
-    {
-        "id": "c89da5e7.ba6508",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "87663ac3.fba438",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
     },
     {
         "id": "ee116574.f1f048",

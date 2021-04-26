@@ -121,6 +121,27 @@
         "collapse": false
     },
     {
+        "id": "85c52f19.b355",
+        "type": "mqtt-broker",
+        "name": "dummy mqtt",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
         "id": "ee116574.f1f048",
         "type": "inject",
         "z": "98f04e36.3a6d",
@@ -182,5 +203,20 @@
         "x": 420,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "7f9f1357.2ef0ac",
+        "type": "mqtt in",
+        "z": "98f04e36.3a6d",
+        "name": "",
+        "topic": "/test",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "85c52f19.b355",
+        "x": 270,
+        "y": 200,
+        "wires": [
+            []
+        ]
     }
 ]

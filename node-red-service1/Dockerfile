@@ -6,9 +6,9 @@ RUN mkdir /node-red
 RUN chown node-red:node-red /node-red
 USER node-red
 
-# Copy package.json to the the Node-RED user so npm builds all
-# of your added nodes modules for Node-RED
 COPY package.json /node-red/
+# The following command will build all the nodes specified in the package.json that is copied
+# in previous command.
 RUN  cd /node-red ; npm install --unsafe-perm --no-update-notifier --no-fund --only=production
 
 # Copy Node-RED flow files and settings to userDir

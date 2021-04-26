@@ -9,5 +9,7 @@
             "flowFile": "flows.json",
             "credentialsFile": "flows_cred.json"
         }
-    }
+    },
+    "description": "sample node-red flow",
+    "version": "0.0.1"
 }

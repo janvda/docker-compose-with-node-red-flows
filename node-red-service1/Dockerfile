@@ -14,5 +14,9 @@ RUN  cd /node-red ; npm install --unsafe-perm --no-update-notifier --no-fund --o
 # Copy Node-RED flow files and settings to userDir
 COPY  flows.json flows_cred.json settings.js /node-red/
 
+# also Copy settings.js to /data folder as docker healthcheck.js is requiring this.
+# see https://github.com/node-red/node-red-docker/issues/232
+COPY settings.js /data/
+
 # start Node-RED
 ENTRYPOINT  npm start --  --userDir /node-red

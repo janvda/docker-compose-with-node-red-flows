@@ -21,6 +21,18 @@ Now you can update your flows using the Node-Red editor.
 
 Once you have successfully updated the flows don't forget to push your changes to the github repository.
 
+## How to create a new github repository that is a copy of this github repository
+
+When you want to use this github repository as a template for a new github repository and fork is not an option then you can follow the instructions outlined at:
+
+* [How do I create a new GitHub repo from a branch in an existing repo?](https://stackoverflow.com/a/9529847/6762442)
+
+In other words:
+
+1. Create a new github respository
+2. cd to your local copy of this repository.
+3. `git push https://github.com/<name of your new github repository>.git +main:main`
+
 ## How to install new Node-RED nodes ?
 
 Once you have properly cloned the github repository (see previous section) you can add new nodes as follows:

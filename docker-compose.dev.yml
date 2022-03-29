@@ -1,0 +1,13 @@
+# docker compose file with development settings
+version: "3.7"
+volumes:
+  node-red-data:
+services:
+  node-red-service1:
+    build: node-red-service1
+    ports:
+      - "9881:1880"
+    environment:
+      - NODE_RED_ENABLE_PROJECTS=true  # must be set to true if you want to modify the node-red flow files through node-red editor
+    volumes:
+      - 'node-red-data:/data'

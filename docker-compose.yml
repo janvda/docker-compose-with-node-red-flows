@@ -1,8 +1,5 @@
 version: "3.7"
 services:
   node-red-service1:
-    build: node-red-service1
-    ports:
-      - "9880:1880"
     environment:
-      - NODE_RED_ENABLE_PROJECTS=true  # must be set to true if you want to modify the node-red flow files through node-red editor
+      - TZ=${TZ:-Europe/Paris} # sets the timezone (you can also use "UTC") - important for timestamps

@@ -1,4 +1,4 @@
-FROM nodered/node-red:2.2.2-16
+FROM nodered/node-red:3.0.2-16
 
 COPY --chown=node-red:node-red package.json /data/
 # The following command will build all the nodes specified in the package.json that is copied

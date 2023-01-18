@@ -2,6 +2,6 @@
 version: "3.7"
 services:
   node-red-service1:
-    image: janvda/my-node-red:1.0.0
+    image: janvda/my-node-red:1.1.0
     ports:
       - "9880:1880"

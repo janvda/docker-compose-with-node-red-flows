@@ -1,2 +1,4 @@
 .flows.json.backup
 .flows_cred.json.backup
+.DS_Store
+.vscode
